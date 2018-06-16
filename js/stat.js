@@ -42,3 +42,4 @@ var renderStatistics = function (ctx, names, times) {
     ctx.fillRect(CLOUD_X + GAP + ((GAP + BAR_WIDTH) * index2), (TEXT_HEIGHT * 4) + (BAR_MAX_WIDTH - result), BAR_WIDTH, result);
   }
 };
+renderStatistics();
